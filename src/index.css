@@ -11,3 +11,143 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+* {
+
+  box-sizing: border-box;
+
+  padding: 0;
+
+  margin: 0;
+
+  font-family: "Josefin Sans", "Arial Narrow", Arial, sans-serif;
+
+}
+.main_div {
+
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: center;
+
+  /* align-items: center; */
+
+  text-align: center;
+
+}
+.center_div {
+
+  width: 35%;
+
+  height: fit-content;
+
+  background-color: #f4f4f4;
+
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+
+  border-radius: 15px;
+
+  margin-top: 100px;
+
+}
+
+.newBtn {
+
+  width: 50px;
+
+  height: 50px;
+
+  border-radius: 50% !important;
+
+  background-color: #0dcaf0 !important;
+
+  color: white !important;
+
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+  /* plz subscibe to thapatechnical channel */
+
+  border: 1px solid #fff;
+
+  display: block;
+  margin-right: 20px;
+  float: right;
+
+}
+
+
+form.frmNote {
+  width: 90%;
+  margin: auto;
+}
+
+h1{
+  background-color: #0dcaf0;
+  color: white;
+  font-size: 50px;
+
+  margin-bottom: 30px;
+
+  min-width: 64px;
+
+  box-sizing: border-box;
+
+  font-family: "Comfortaa", cursive;
+
+  /* plz subscibe to thapatechnical channel */
+
+  font-weight: 500;
+
+  border-radius: 4px;
+
+  letter-spacing: 0.02857em;
+
+  text-transform: uppercase;
+
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.footer-page{
+  background-color: #0dcaf0;
+}
+
+.note {
+  width: 300px;
+  border: 1px solid white;
+  height: 300px;
+  margin-left: 10px;
+  box-shadow: 5px 5px 25px -5px rgb(0 0 0 / 50%);
+  border-radius: 8px;
+  background-color: #0dcaf0;
+  color: white;
+  text-align: center;
+  float: left;
+  margin-top: 30px;
+  /* overflow-y: scroll; */
+}
+
+.deleteBtn {
+
+  width: 50px;
+
+  height: 50px;
+
+  border-radius: 50% !important;
+
+  background-color: white !important;
+
+  color:  #0dcaf0!important;
+
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+  /* plz subscibe to thapatechnical channel */
+
+  border: 1px solid #fff;
+
+  display: block;
+  margin-right: 20px;
+  float: right;
+
+}
